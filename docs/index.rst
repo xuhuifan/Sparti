@@ -5,7 +5,7 @@
    :maxdepth: 2
 
    installing
-   configuring
+   good_to_know
    contributing
 
 .. toctree::
