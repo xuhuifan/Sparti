@@ -8,7 +8,8 @@
    good_to_know
    quickstart
    api
-   contributing
+   faq
+
 
 .. toctree::
    :maxdepth: 1
