@@ -54,22 +54,17 @@ This theme is distributed on PyPI_ and can be installed with ``pip``:
 
    pip install sparti
 
-To use the theme in your Sphinx project, you will need to add the following to
-your ``conf.py`` file:
+
+Example Usage
+----------------------------------
 
 .. code:: python
 
     import sparti
+    import numpy as np
+    
+    xdata = np.random.rand(100, 2)
+    ydata = np.random.rand(100)
+    sparti.BSPF(xdata, ydata)
 
-    extensions = [
-        ...
-        "sphinx_rtd_theme",
-    ]
-
-    html_theme = "sphinx_rtd_theme"
-
-For more information read the full documentation on `installing the theme`_
-
-.. _PyPI: https://pypi.python.org/pypi/sphinx_rtd_theme
-.. _installing the theme: https://sphinx-rtd-theme.readthedocs.io/en/latest/installing.html
 
