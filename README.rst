@@ -36,11 +36,11 @@ Currently implemented PartiP models:
 - the Binary Space Partitioning-Tree Process
 - the Rectangular Bounding Process
 
-Currently implemented PartiP tasks:
-----------------------------------
+Currently, PartiP can be applied in the following two tasks (More tasks are under exploration.) 
+
 - Relational modelling
 - Regression Tree (including classification and regression)
-More tasks are under exploration.
+
 
 Additionally, PartiP integrates tools for visualization, model comparison, diagnostics and post-processing.
 
