@@ -24,7 +24,7 @@ Sparti is a statistical software package for spatial partition inference such as
 Sparti is licensed under BSD3_. The source is in GitHub_.
 
 .. _BSD3: https://opensource.org/licenses/BSD-3-Clause
-.. _GitHub: https://github.com/elfi-dev/elfi
+.. _GitHub: https://github.com/xuhuifan/Sparti
 
 
 Currently implemented Sparti models:
