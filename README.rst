@@ -1,5 +1,5 @@
 **************************
-stochastic Partition Process inference
+PartiP - stochastic Partition Process inference
 **************************
 
 .. image:: https://img.shields.io/pypi/v/sphinx_rtd_theme.svg
