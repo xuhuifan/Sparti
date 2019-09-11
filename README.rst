@@ -15,7 +15,7 @@ PartiP - stochastic Partition Process inference
   :target: http://sphinx-rtd-theme.readthedocs.io/en/latest/?badge=latest
   :alt: Documentation Status
 
-PartiP is a statistical software package stochastic partition process inference such as inference methods for `the Mondrian Process`_ , the Binary Space Partitioning-Tree Process, the Rectangular Bounding Process. Currently, Markov chain Monte Carlo method is the main strategy for the inference. More advanced and scalable inference, such as Variational AutoEncoding method should come in the near future.
+PartiP is a statistical software package stochastic partition process inference such as inference methods for `the Mondrian Process`_ , `the Binary Space Partitioning-Tree Process`_ , `the Rectangular Bounding Process`_ . Currently, Markov chain Monte Carlo method is the main strategy for the inference. More advanced and scalable inference, such as Variational AutoEncoding method should come in the near future.
 
 This the Mondrian Process_ theme was designed to provide a great reader experience for
 documentation users on both desktop and mobile devices. This theme is used
@@ -23,6 +23,8 @@ primarily on `Read the Docs`_ but can work with any Sphinx project. You can find
 a working demo of the theme in the `theme documentation`_
 
 .. _the Mondrian Process: https://papers.nips.cc/paper/3622-the-mondrian-process
+.. _the Binary Space Partitioning-Tree Process: http://proceedings.mlr.press/v84/fan18b
+.. _the Rectangular Bounding Process: https://papers.nips.cc/paper/7989-rectangular-bounding-process
 .. _Read the Docs: http://www.readthedocs.org
 .. _theme documentation: https://sphinx-rtd-theme.readthedocs.io/en/latest/
 
