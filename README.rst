@@ -27,27 +27,24 @@ ELFI is licensed under BSD3_. The source is in GitHub_.
 .. _GitHub: https://github.com/elfi-dev/elfi
 
 
-Currently implemented LFI methods:
+Currently implemented PartiP models:
 ----------------------------------
 
-- ABC rejection sampler
-- Sequential Monte Carlo ABC sampler
-- Bayesian Optimization for Likelihood-Free Inference (BOLFI_) framework
+- Infinite Relational Model (For relational data only.)
+- Bayesian Additive Regression Tree (For regression tree only.)
+- the Mondrian Process
+- the Binary Space Partitioning-Tree Process
+- the Rectangular Bounding Process
 
-.. _BOLFI: http://jmlr.org/papers/v17/15-017.html
+PartiP currently can be applied in the following two tasks:
+- Relational modelling
+- Regression Tree (including classification and regression)
 
-ELFI also has the following non LFI methods:
-
-- Bayesian Optimization
-- No-U-Turn-Sampler_, a Hamiltonian Monte Carlo MCMC sampler
-
-.. _No-U-Turn-Sampler: http://jmlr.org/papers/volume15/hoffman14a/hoffman14a.pdf
-
-Additionally, ELFI integrates tools for visualization, model comparison, diagnostics and post-processing.
+Additionally, PartiP integrates tools for visualization, model comparison, diagnostics and post-processing.
 
 
 Installation
-============
+----------------------------------
 
 This theme is distributed on PyPI_ and can be installed with ``pip``:
 
@@ -75,7 +72,7 @@ For more information read the full documentation on `installing the theme`_
 .. _installing the theme: https://sphinx-rtd-theme.readthedocs.io/en/latest/installing.html
 
 Configuration
-=============
+----------------------------------
 
 This theme is highly customizable on both the page level and on a global level.
 To see all the possible configuration options, read the documentation on
@@ -84,7 +81,7 @@ To see all the possible configuration options, read the documentation on
 .. _configuring the theme: https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html
 
 Contributing
-============
+----------------------------------
 
 If you would like to help modify or translate the theme, you'll find more
 information on contributing in our `contributing guide`_.
