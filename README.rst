@@ -59,7 +59,7 @@ your ``conf.py`` file:
 
 .. code:: python
 
-    import sphinx_rtd_theme
+    import partip
 
     extensions = [
         ...
