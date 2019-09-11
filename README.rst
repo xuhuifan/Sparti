@@ -73,19 +73,3 @@ For more information read the full documentation on `installing the theme`_
 .. _PyPI: https://pypi.python.org/pypi/sphinx_rtd_theme
 .. _installing the theme: https://sphinx-rtd-theme.readthedocs.io/en/latest/installing.html
 
-Configuration
-----------------------------------
-
-This theme is highly customizable on both the page level and on a global level.
-To see all the possible configuration options, read the documentation on
-`configuring the theme`_.
-
-.. _configuring the theme: https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html
-
-Contributing
-----------------------------------
-
-If you would like to help modify or translate the theme, you'll find more
-information on contributing in our `contributing guide`_.
-
-.. _contributing guide: https://sphinx-rtd-theme.readthedocs.io/en/latest/contributing.html
