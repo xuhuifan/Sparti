@@ -3,10 +3,10 @@ This tutorial is generated from a `Jupyter <http://jupyter.org/>`__
 notebook that can be found
 `here <https://github.com/elfi-dev/notebooks>`__.
 
-ELFI tutorial
+Sparti tutorial
 =============
 
-This tutorial covers the basics of using ELFI, i.e. how to make models,
+This tutorial covers the basics of using Sparti, i.e. how to make models,
 save results for later use and run different inference algorithms.
 
 Let’s begin by importing libraries that we will use and specify some
