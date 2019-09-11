@@ -21,6 +21,31 @@ PartiP is a statistical software package for stochastic partition process infere
 .. _the Binary Space Partitioning-Tree Process: http://proceedings.mlr.press/v84/fan18b
 .. _the Rectangular Bounding Process: https://papers.nips.cc/paper/7989-rectangular-bounding-process
 
+ELFI is licensed under BSD3_. The source is in GitHub_.
+
+.. _BSD3: https://opensource.org/licenses/BSD-3-Clause
+.. _GitHub: https://github.com/elfi-dev/elfi
+
+
+Currently implemented LFI methods:
+----------------------------------
+
+- ABC rejection sampler
+- Sequential Monte Carlo ABC sampler
+- Bayesian Optimization for Likelihood-Free Inference (BOLFI_) framework
+
+.. _BOLFI: http://jmlr.org/papers/v17/15-017.html
+
+ELFI also has the following non LFI methods:
+
+- Bayesian Optimization
+- No-U-Turn-Sampler_, a Hamiltonian Monte Carlo MCMC sampler
+
+.. _No-U-Turn-Sampler: http://jmlr.org/papers/volume15/hoffman14a/hoffman14a.pdf
+
+Additionally, ELFI integrates tools for visualization, model comparison, diagnostics and post-processing.
+
+
 Installation
 ============
 
