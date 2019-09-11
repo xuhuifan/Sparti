@@ -10,7 +10,7 @@ Below is the API for creating generative models.
 .. currentmodule:: .
 
 .. autosummary::
-   elfi.ElfiModel
+   sparti.BSPF
 
 **General model nodes**
 
