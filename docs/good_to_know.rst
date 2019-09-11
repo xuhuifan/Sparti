@@ -1,15 +1,15 @@
 Good to know
 ============
 
-Here we describe some important concepts related to ELFI. These will help in understanding
+Here we describe some important concepts related to Sparti. These will help in understanding
 how to implement custom operations (such as simulators or summaries) and can potentially
 save the user from some pitfalls.
 
 
-ELFI model
+Sparti model
 ----------
 
-In ELFI, the priors, simulators, summaries, distances, etc. are called operations. ELFI
+In Sparti, the priors, simulators, summaries, distances, etc. are called operations. ELFI
 provides a convenient syntax of combining these operations into a network that is called
 an `ElfiModel`_, where each node represents an operation. Basically, the `ElfiModel`_ is a
 description of how different quantities needed in the inference are to be generated. The
