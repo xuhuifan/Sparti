@@ -12,9 +12,9 @@
 
 
 .. toctree::
+   :caption: Usage
    :maxdepth: 1
-   :hidden:
 
-   changelog
+   tutorial
 
 
