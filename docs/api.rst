@@ -10,7 +10,7 @@ Below is the API for creating generative models.
 .. currentmodule:: .
 
 .. autosummary::
-   sparti.BSPF
+   sparti.BSPF.BSPF_M
 
 **General model nodes**
 
