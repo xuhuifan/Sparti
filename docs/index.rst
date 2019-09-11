@@ -6,6 +6,7 @@
 
    installing
    good_to_know
+   quickstart
    contributing
 
 .. toctree::
