@@ -3,13 +3,13 @@ Quickstart
 ==========
 
 First ensure you have
-`installed <http://elfi.readthedocs.io/en/stable/installation.html>`__
-Python 3.5 (or greater) and ELFI. After installation you can start using
-ELFI:
+`installed <https://sparti.readthedocs.io/en/latest/installing.html>`__
+Python 3.5 (or greater), sparti and other common dependence packages. After installation you can start using
+Sparti:
 
 .. code:: ipython3
 
-    import elfi
+    import sparti
 
 ELFI includes an easy to use generative modeling syntax, where the
 generative model is specified as a directed acyclic graph (DAG). Let’s
