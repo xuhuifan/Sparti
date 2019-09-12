@@ -63,8 +63,11 @@ Example Usage
     import sparti
     import numpy as np
     
-    xdata = np.random.rand(100, 2)
-    ydata = np.random.rand(100)
-    sparti.BSPF(xdata, ydata)
+    xdata = np.random.rand(100, 2) # Generate the feature data X
+    ydata = np.random.rand(100)  # Generate the label data Y
+    IterationTime = 200 # Set the number of iterations
+    NumTree = 50  # Set the number of trees in the Binary Space Partitioning Forest
+    budget_val = 0.5 # Set the budget value used in each Binary Space Partitioning Tree
+    sparti.BSPF.BSPF_Main(IterationTime, NumTree, budget_val, xdata, ydata)
 
 
