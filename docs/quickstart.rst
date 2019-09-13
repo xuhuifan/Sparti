@@ -14,6 +14,7 @@ Sparti:
 Sparti is easy to use. As long as you have specified the data, label, parameter and the task category, you can make it run and get the results! 
 
 Take BSPF (which is the Binary Space Partitioning Forest) as an example. First, you have the data (e.g. we are using the Friedman test data):
+
 .. code:: ipython3
     dimNum = 5
     dataNum = 10000
