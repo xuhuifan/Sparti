@@ -16,6 +16,7 @@ Sparti is easy to use. As long as you have specified the data, label, parameter 
 Take BSPF (which is the Binary Space Partitioning Forest) as an example. First, you have the data (e.g. we are using the Friedman test data):
 
 .. code:: ipython3
+
     dimNum = 5
     dataNum = 10000
     xdata, ydata = sparti.BSPF.Friedman_function_gen(dimNum, dataNum)
