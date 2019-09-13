@@ -10,28 +10,8 @@ Sparti:
 
 
 
-.. code:: ipython3
 
-    import elfi
-
-ELFI includes an easy to use generative modeling syntax, where the
-generative model is specified as a directed acyclic graph (DAG). Let’s
-create two prior nodes:
-
-.. code:: ipython3
-
-    mu = elfi.Prior('uniform', -2, 4)
-    sigma = elfi.Prior('uniform', 1, 4)
-
-The above would create two prior nodes, a uniform distribution from -2
-to 2 for the mean ``mu`` and another uniform distribution from 1 to 5
-for the standard deviation ``sigma``. All distributions from
-``scipy.stats`` are available.
-
-
-
-
-.. code:: ipython3
+.. code:: python3
 
     import sparti
 
@@ -41,7 +21,7 @@ Sparti is easy to use. As long as you have specified the data, label, parameter 
 Take BSPF (which is the Binary Space Partitioning Forest) as an example. First, you have the data (e.g. we are using the Friedman test data):
 
 
-.. code:: ipython3
+.. code:: python3
 
     dimNum = 5
     dataNum = 10000
