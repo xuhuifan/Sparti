@@ -35,6 +35,7 @@ Currently implemented Sparti models:
 - the Mondrian Process
 - the Binary Space Partitioning-Tree Process
 - the Rectangular Bounding Process
+- Deep Partitioning Model
 
 Currently, Sparti can be applied in the following two tasks (More tasks are under exploration.) 
 
