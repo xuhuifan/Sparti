@@ -15,7 +15,7 @@ Sparti - Spatial partition inference
   :target: http://sphinx-rtd-theme.readthedocs.io/en/latest/?badge=latest
   :alt: Documentation Status
 
-Sparti is a statistical software package for spatial partition inference such as inference methods for `the Mondrian Process`_ , `the Binary Space Partitioning-Tree Process`_ , `the Rectangular Bounding Process`_ . Currently, Markov chain Monte Carlo method is the main strategy for the inference. More advanced and scalable inference, such as Variational AutoEncoding method should come in the near future.
+Sparti is a statistical software package for spatial partition inference such as inference methods for `the Mondrian Process`_ , `the Binary Space Partitioning-Tree Process`_ , `the Rectangular Bounding Process`_ . Currently, Markov chain Monte Carlo method is the main strategy for the inference. 
 
 .. _the Mondrian Process: https://papers.nips.cc/paper/3622-the-mondrian-process
 .. _the Binary Space Partitioning-Tree Process: http://proceedings.mlr.press/v84/fan18b
